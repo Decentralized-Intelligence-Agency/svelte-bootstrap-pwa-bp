@@ -9,6 +9,18 @@
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "lightweight-charts": "^4.0.0",
+    "sveltestrap": "^5.10.0"
+  },
+  "optionalDependencies": {
+    "assemblyscript": "^0.25",
+    "dexie": "^3.2.2",
+    "simple-svelte-autocomplete": "^2.4.0",
+    "svelte-lightweight-charts": "^1.6.3",
+    "vtop": "^0.6.1"
+  },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.0.2",
     "@tsconfig/svelte": "^3.0.0",
